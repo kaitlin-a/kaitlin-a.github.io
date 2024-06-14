@@ -4,7 +4,9 @@ Welcome to my personal website where I showcase my research papers and projects.
 
 ## About Me
 
-I am passionate about [Your Field/Interest] and have dedicated my work to [Brief Description of Your Work]. This website serves as a platform to share my research and projects with a broader audience.
+I am passionate about technology and humanitarinism, dedicating my work to developing innovative solutions that drive social impact.
+With a strong foundation in Computer Science and Applied Physics, I have led projects like the Rescue Operations Assistant (ROA), which secured first place in the National Science Foundation Competition. My work spans across various fields, including engineering, data science, and community-driven initiatives, aiming to blend technology with real-world applications to solve pressing problems. 
+This website serves as a platform to share my research and projects with a broader audience.
 
 ## Research Papers
 
