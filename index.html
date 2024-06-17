@@ -14,8 +14,8 @@
             background-color: #f4f4f4;
             color: #333;
         }
-        header {
-            background-color: #4CAF50;
+         header {
+            background: linear-gradient(to right, #4CAF50, #2E7D32);
             color: white;
             padding: 1em 0;
             text-align: center;
@@ -110,24 +110,32 @@
         <section id="projects">
             <h2>Projects</h2>
             <ul>
-                <li><a href="link_to_your_project1">Title of Project 1</a></li>
-                <li><a href="link_to_your_project2">Title of Project 2</a></li>
+                <li><a href="https://github.com/kaitlin-a/rosbag_filter_project/tree/master">RosBag Filteration (RBF) Node Data Analysis tool </a></li>
+                
                 <!-- Add more projects as needed -->
             </ul>
         </section>
         <section id="contact">
             <h2>Contact</h2>
-            <form class="contact-form" action="kaitlin.asch@gmail.com" method="post" enctype="text/plain">
-                <input type="text" name="name" placeholder="Kaity Asch" required>
-                <input type="email" name="email" placeholder="kaitlin.asch@gmail.com" required>
-                <textarea name="message" placeholder="Contact me for any inquiries." rows="5" required></textarea>
+            <form class="contact-form" action="https://formspree.io/f/xbjnnwbb" method="POST">
+                <label>
+                    Your Name:
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </label>
+                <label>
+                    Your Email:
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </label>
+                <label>
+                    Your Message:
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                </label>
                 <button type="submit">Send</button>
             </form>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Kaitlin E. Asch</p>
+        <p>&copy; 2024 Kaitlin E. Asch </p>
     </footer>
 </body>
 </html>
-
