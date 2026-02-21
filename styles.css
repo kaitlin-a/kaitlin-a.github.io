@@ -1,3 +1,7 @@
+/* =========================
+   GLOBAL
+========================= */
+
 body {
     margin: 0;
     font-family: 'Helvetica Neue', sans-serif;
@@ -7,11 +11,13 @@ body {
     overflow-x: hidden;
 }
 
-/* HERO */
+/* =========================
+   HERO
+========================= */
 
 .hero {
     text-align: center;
-    padding: 90px 20px 20px; /* tightened bottom spacing */
+    padding: 90px 20px 20px; /* tighter bottom spacing */
 }
 
 .hero h1 {
@@ -32,11 +38,13 @@ body {
     color: #555;
 }
 
-/* SECTIONS */
+/* =========================
+   SECTIONS
+========================= */
 
 section {
     max-width: 950px;
-    margin: 40px auto; /* reduced from 60px */
+    margin: 40px auto;
     padding: 0 20px;
 }
 
@@ -46,22 +54,25 @@ h3 {
     font-weight: 600;
 }
 
-/* ===== RESEARCH CARDS ===== */
+/* =========================
+   RESEARCH CARDS
+========================= */
 
 .research-card {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    background: white;
-    padding: 35px;
-    margin-bottom: 50px;
-    border-radius: 22px;
 
-    /* softer floating card shadow */
-    box-shadow: 
-        0 30px 70px rgba(0,0,0,0.06),
-        0 10px 20px rgba(0,0,0,0.04);
+    background: white;
+    padding: 40px;
+    margin-bottom: 50px;
+
+    border-radius: 24px;
+
+    box-shadow:
+        0 20px 50px rgba(0,0,0,0.06),
+        0 8px 20px rgba(0,0,0,0.04);
 }
 
 .research-text {
@@ -87,40 +98,13 @@ h3 {
     margin-bottom: 6px;
 }
 
-/* ===== ETHEREAL BUBBLE IMAGES ===== */
-
-/* ===== RESEARCH CARDS (Upgraded Layout) ===== */
-
-.research-card {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px;
-
-    background: white;
-    padding: 40px;
-    margin-bottom: 50px;
-
-    border-radius: 24px;
-
-    /* cleaner lifted card */
-    box-shadow: 
-        0 20px 50px rgba(0,0,0,0.06),
-        0 8px 20px rgba(0,0,0,0.04);
-}
-
-.research-text {
-    flex: 1;
-}
-
-/* Thumbnail Bubble */
+/* Thumbnail Bubble Images */
 
 .research-card img {
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     border-radius: 50%;
-
     flex-shrink: 0;
 
     box-shadow:
@@ -139,7 +123,9 @@ h3 {
         inset 8px 8px 20px rgba(0,0,0,0.06);
 }
 
-/* PROJECT CARDS */
+/* =========================
+   PROJECT CARDS
+========================= */
 
 .project-card {
     display: flex;
@@ -162,7 +148,9 @@ h3 {
     color: #777;
 }
 
-/* LINKS */
+/* =========================
+   LINKS
+========================= */
 
 a {
     color: #2a5bd7;
@@ -173,7 +161,9 @@ a:hover {
     text-decoration: underline;
 }
 
-/* FOOTER */
+/* =========================
+   FOOTER
+========================= */
 
 footer {
     text-align: center;
@@ -182,7 +172,9 @@ footer {
     color: #666;
 }
 
-/* ===== ORB BACKGROUND (UNCHANGED) ===== */
+/* =========================
+   ORB BACKGROUND
+========================= */
 
 .orb {
     position: fixed;
@@ -216,11 +208,21 @@ footer {
     left: 60%;
 }
 
+/* =========================
+   RESPONSIVE
+========================= */
+
 @media (max-width: 850px) {
-    .research-card {
+    .research-card,
+    .project-card {
         flex-direction: column;
         text-align: center;
     }
+
+    .research-card img {
+        margin-top: 20px;
+    }
+}
 
     .research-card img {
         margin-top: 20px;
