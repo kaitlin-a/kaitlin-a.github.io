@@ -89,29 +89,54 @@ h3 {
 
 /* ===== ETHEREAL BUBBLE IMAGES ===== */
 
+/* ===== RESEARCH CARDS (Upgraded Layout) ===== */
+
+.research-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+    background: white;
+    padding: 40px;
+    margin-bottom: 50px;
+
+    border-radius: 24px;
+
+    /* cleaner lifted card */
+    box-shadow: 
+        0 20px 50px rgba(0,0,0,0.06),
+        0 8px 20px rgba(0,0,0,0.04);
+}
+
+.research-text {
+    flex: 1;
+}
+
+/* Thumbnail Bubble */
+
 .research-card img {
-    width: 180px;   /* slightly larger */
-    height: 180px;
+    width: 130px;
+    height: 130px;
     object-fit: cover;
     border-radius: 50%;
 
-    /* Soft outer shadow to right */
+    flex-shrink: 0;
+
     box-shadow:
-        25px 30px 60px rgba(0,0,0,0.15),
+        18px 22px 40px rgba(0,0,0,0.18),
+        inset -10px -10px 20px rgba(255,255,255,0.6),
+        inset 8px 8px 20px rgba(0,0,0,0.05);
 
-        /* subtle inner glow */
-        inset -15px -15px 25px rgba(255,255,255,0.6),
-        inset 10px 10px 25px rgba(0,0,0,0.05);
-
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
 
 .research-card img:hover {
-    transform: scale(1.05);
+    transform: scale(1.06);
     box-shadow:
-        35px 40px 80px rgba(0,0,0,0.18),
-        inset -15px -15px 25px rgba(255,255,255,0.7),
-        inset 10px 10px 25px rgba(0,0,0,0.06);
+        22px 28px 55px rgba(0,0,0,0.2),
+        inset -10px -10px 20px rgba(255,255,255,0.7),
+        inset 8px 8px 20px rgba(0,0,0,0.06);
 }
 
 /* PROJECT CARDS */
