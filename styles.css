@@ -215,3 +215,14 @@ footer {
     top: 50%;
     left: 60%;
 }
+
+@media (max-width: 850px) {
+    .research-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .research-card img {
+        margin-top: 20px;
+    }
+}
