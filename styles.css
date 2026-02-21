@@ -25,7 +25,7 @@ body {
 
 .portrait {
     position: absolute;
-    left: 60px;              /* horizontal position */
+    left: 30px;              /* horizontal position */
     top: 70%;                /* vertical alignment */
     transform: translateY(-50%);
 
