@@ -26,11 +26,11 @@ body {
 .portrait {
     position: absolute;
     left: 60px;              /* horizontal position */
-    top: 50%;                /* vertical alignment */
+    top: 70%;                /* vertical alignment */
     transform: translateY(-50%);
 
-    width: 120px;             /* professional size */
-    height: 120px;
+    width: 140px;             /* professional size */
+    height: 140px;
 
     border-radius: 50%;
     object-fit: cover;
