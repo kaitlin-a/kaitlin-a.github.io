@@ -225,25 +225,30 @@ footer {
    PORTRAIT (Top Left)
 ========================= */
 
-.portrait {
-    position: fixed;
-    top: 30px;
-    left: 40px;
+/* =========================
+   PORTRAIT (Hero Left Aligned)
+========================= */
 
-    width: 95px;
-    height: 95px;
+.hero {
+    position: relative;
+}
+
+.portrait {
+    position: absolute;
+    left: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 110px;
+    height: 110px;
 
     border-radius: 50%;
     object-fit: cover;
 
     box-shadow:
-        0 20px 40px rgba(0,0,0,0.18),
-        0 8px 15px rgba(0,0,0,0.08);
-
-    z-index: 10;
+        0 15px 35px rgba(0,0,0,0.15),
+        0 5px 15px rgba(0,0,0,0.08);
 }
-
-    .research-card img {
         margin-top: 20px;
     }
 }
