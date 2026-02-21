@@ -220,6 +220,29 @@ footer {
         text-align: center;
     }
 
+
+   /* =========================
+   PORTRAIT (Top Left)
+========================= */
+
+.portrait {
+    position: fixed;
+    top: 30px;
+    left: 40px;
+
+    width: 95px;
+    height: 95px;
+
+    border-radius: 50%;
+    object-fit: cover;
+
+    box-shadow:
+        0 20px 40px rgba(0,0,0,0.18),
+        0 8px 15px rgba(0,0,0,0.08);
+
+    z-index: 10;
+}
+
     .research-card img {
         margin-top: 20px;
     }
