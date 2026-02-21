@@ -7,6 +7,8 @@ body {
     overflow-x: hidden;
 }
 
+/* HERO */
+
 .hero {
     text-align: center;
     padding: 90px 20px 40px;
@@ -14,59 +16,107 @@ body {
 
 .hero h1 {
     font-size: 3rem;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     font-weight: 600;
 }
 
 .hero h2 {
     font-weight: 400;
     color: #444;
+    margin-bottom: 15px;
 }
 
 .hero p {
-    max-width: 600px;
-    margin: 20px auto 0;
+    max-width: 650px;
+    margin: 0 auto;
     color: #555;
 }
 
+/* SECTIONS */
+
 section {
-    max-width: 900px;
-    margin: 80px auto;
+    max-width: 950px;
+    margin: 60px auto;
     padding: 0 20px;
 }
 
 h3 {
-    font-size: 1.8rem;
-    margin-bottom: 20px;
+    font-size: 1.9rem;
+    margin-bottom: 30px;
+    font-weight: 600;
 }
 
-.card, .project-card {
+/* RESEARCH CARDS */
+
+.research-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
     background: white;
-    padding: 25px;
-    margin-bottom: 25px;
-    border-radius: 16px;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.06);
+    padding: 35px;
+    margin-bottom: 40px;
+    border-radius: 22px;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.07);
 }
 
-.card ul {
+.research-text {
+    flex: 1;
+}
+
+.research-text h4 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+}
+
+.research-text p {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.research-text ul {
     padding-left: 20px;
 }
+
+.research-text li {
+    margin-bottom: 6px;
+}
+
+/* Bubble Images */
+
+.research-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* PROJECT CARDS */
 
 .project-card {
     display: flex;
     gap: 25px;
     align-items: center;
+    background: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.07);
 }
 
 .project-card img {
     width: 180px;
-    border-radius: 14px;
+    border-radius: 18px;
 }
 
 .coming {
     font-size: 0.9rem;
     color: #777;
 }
+
+/* LINKS */
 
 a {
     color: #2a5bd7;
@@ -77,14 +127,16 @@ a:hover {
     text-decoration: underline;
 }
 
+/* FOOTER */
+
 footer {
     text-align: center;
-    padding: 60px 20px;
+    padding: 50px 20px;
     font-size: 0.9rem;
     color: #666;
 }
 
-/* Orb background */
+/* ORB BACKGROUND */
 
 .orb {
     position: fixed;
