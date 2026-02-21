@@ -29,8 +29,8 @@ body {
     top: 50%;                /* vertical alignment */
     transform: translateY(-50%);
 
-    width: 100px;             /* professional size */
-    height: 100px;
+    width: 120px;             /* professional size */
+    height: 120px;
 
     border-radius: 50%;
     object-fit: cover;
