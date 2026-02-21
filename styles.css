@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Helvetica Neue', sans-serif;
-    background: #f7f8fb;
+    background: #f3f5f9;
     color: #1f1f1f;
     line-height: 1.7;
     overflow-x: hidden;
@@ -9,7 +9,7 @@ body {
 
 .hero {
     text-align: center;
-    padding: 90px 20px 40px;
+    padding: 70px 20px 40px;
 }
 
 .hero h1 {
