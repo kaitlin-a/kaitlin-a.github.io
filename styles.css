@@ -101,26 +101,27 @@ h3 {
 /* Thumbnail Bubble Images */
 
 .research-card img {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     object-fit: cover;
-    border-radius: 50%;
+
+    border-radius: 18px;   /* square with soft corners */
+
     flex-shrink: 0;
 
+    /* clean elevated shadow */
     box-shadow:
-        18px 22px 40px rgba(0,0,0,0.18),
-        inset -10px -10px 20px rgba(255,255,255,0.6),
-        inset 8px 8px 20px rgba(0,0,0,0.05);
+        0 25px 50px rgba(0,0,0,0.18),
+        0 10px 20px rgba(0,0,0,0.08);
 
     transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
 
 .research-card img:hover {
-    transform: scale(1.06);
+    transform: translateY(-4px) scale(1.03);
     box-shadow:
-        22px 28px 55px rgba(0,0,0,0.2),
-        inset -10px -10px 20px rgba(255,255,255,0.7),
-        inset 8px 8px 20px rgba(0,0,0,0.06);
+        0 35px 65px rgba(0,0,0,0.22),
+        0 15px 30px rgba(0,0,0,0.10);
 }
 
 /* =========================
