@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaitlin's Research and Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+         header {
+            background: linear-gradient(to right, #4CAF50, #2E7D32);
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kaitlin's Research and Projects</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#articles">Articles</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am passionate about technology and humanitarianism, dedicating my work to developing innovative solutions that drive social impact. With a strong foundation in Computer Science and Applied Physics, I have led projects like the Rescue Operations Assistant (ROA), which secured first place in the National Science Foundation Competition. My work spans across various fields, including engineering, data science, and community-driven initiatives, aiming to blend technology with real-world applications to solve pressing problems. This website serves as a platform to share my research and projects with a broader audience.</p>
+        </section>
+        <section id="Rescue Operation Assistant Project: NSF 1st Place, Washington D.C.">
+            <h2>ROA Articles</h2>
+            <ul>
+                <li><a href="https://new.nsf.gov/news/nsf-aacc-announce-2023-community-college" target="_blank">NSF 2023</a></li>
+                <li><a href="https://www.aaccinnovationchallenge.com/wp-content/uploads/2023/06/2023_CCIC_Winner_Press_Release_Final.pdf" target="_blank">Rescue Operation Assistant (ROA)</a></li>
+                <!-- Add more articles as needed -->
+            </ul>
+        </section>
+        <section id="Rosbag Filtration Tool Project: Autonomous Vehicle Safety Software Development">
+            <h2>ROS Project</h2>
+            <ul>
+                <li><a href="https://github.com/kaitlin-a/rosbag_filter_project/tree/master">RosBag Filteration (RBF) Node Data Analysis tool </a></li>
+                <li><a href="https://github.com/kaitlin-a/kaitlin-a.github.io/raw/main/Asch_Final_Paper.pdf" target="_blank">Research Paper: Data Refining: ROSbag Filtration (RBF) Tool</a></li>
+
+                <!-- Add more projects as needed -->
+            </ul>
+        </section>
+        <section id="Gulfton Skate Park: Philanthropic Work, Fundraising and Designing">
+            <h2>GSP Articles</h2>
+            <ul>
+                <li><a href="https://nextcity.org/urbanist-news/houston-youth-million-dollar-skatepark">Gulfton Skate Park Development</a></li>
+                <li><a href="https://www.chron.com/news/houston-texas/article/Local-teens-help-in-creation-of-million-dollar-11011665.php">Opening Day: Gulfton and the City of Houston Debute </a></li>
+                <li><a href="https://defendernetwork.com/news/local-state/houston-youth-excited-new-skatepark-burnett-bayland-park/">Fundraising and Developing Gulfton Skate Park </a></li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form class="contact-form" action="https://formspree.io/f/xbjnnwbb" method="POST">
+                <label>
+                    Your Name:
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </label>
+                <label>
+                    Your Email:
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </label>
+                <label>
+                    Your Message:
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                </label>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Kaitlin E. Asch </p>
+    </footer>
+</body>
+</html>
